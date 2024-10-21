@@ -142,3 +142,4 @@ D:\Jhon\Git\AlmaceASPX\VisualStudio\Almacen\Almacen\bin\Debug\net8.0\ru\Microsof
 D:\Jhon\Git\AlmaceASPX\VisualStudio\Almacen\Almacen\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Jhon\Git\AlmaceASPX\VisualStudio\Almacen\Almacen\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Jhon\Git\AlmaceASPX\VisualStudio\Almacen\Almacen\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Jhon\Git\AlmaceASPX\VisualStudio\Almacen\Almacen\obj\Debug\net8.0\Almacen.sourcelink.json

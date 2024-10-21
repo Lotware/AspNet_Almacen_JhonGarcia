@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|d:\\jhon\\git\\almaceaspx\\visualstudio\\almacen\\almacen\\views\\movimiento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|solutionrelative:almacen\\views\\movimiento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|d:\\jhon\\git\\almaceaspx\\visualstudio\\almacen\\almacen\\dal\\mov_inventariodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|solutionrelative:almacen\\dal\\mov_inventariodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|d:\\jhon\\git\\almaceaspx\\visualstudio\\almacen\\almacen\\controllers\\movimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|solutionrelative:almacen\\controllers\\movimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|d:\\jhon\\git\\almaceaspx\\visualstudio\\almacen\\almacen\\views\\movimiento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|solutionrelative:almacen\\views\\movimiento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|d:\\jhon\\git\\almaceaspx\\visualstudio\\almacen\\almacen\\services\\movimientoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -67,18 +67,17 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-21T21:13:59.806Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Mov_InventarioDAL.cs",
               "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\DAL\\Mov_InventarioDAL.cs",
               "RelativeDocumentMoniker": "Almacen\\DAL\\Mov_InventarioDAL.cs",
               "ToolTip": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\DAL\\Mov_InventarioDAL.cs",
               "RelativeToolTip": "Almacen\\DAL\\Mov_InventarioDAL.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAjwDEAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T22:02:21.553Z",
               "EditorCaption": ""
@@ -93,25 +92,24 @@
               "RelativeToolTip": "Almacen\\Services\\MovimientoService.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAIA6wBsAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T22:01:51.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T22:01:51.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Views\\Movimiento\\Index.cshtml",
               "RelativeDocumentMoniker": "Almacen\\Views\\Movimiento\\Index.cshtml",
               "ToolTip": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Views\\Movimiento\\Index.cshtml",
               "RelativeToolTip": "Almacen\\Views\\Movimiento\\Index.cshtml",
-              "ViewState": "AQIAACAAAAAAAAAAAAAAACoAAAA3AAAA",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAAE8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-21T21:49:38.088Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MovimientoController.cs",
               "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Controllers\\MovimientoController.cs",
               "RelativeDocumentMoniker": "Almacen\\Controllers\\MovimientoController.cs",
@@ -119,8 +117,7 @@
               "RelativeToolTip": "Almacen\\Controllers\\MovimientoController.cs",
               "ViewState": "AQIAABgAAAAAAAAAAIA+wCIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T21:12:52.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T21:12:52.652Z"
             },
             {
               "$type": "Document",
@@ -132,8 +129,7 @@
               "RelativeToolTip": "Almacen\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAQwAwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T21:00:47.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T21:00:47.281Z"
             },
             {
               "$type": "Document",
@@ -145,8 +141,7 @@
               "RelativeToolTip": "Almacen\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T21:15:37.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T21:15:37.731Z"
             },
             {
               "$type": "Document",
@@ -158,8 +153,7 @@
               "RelativeToolTip": "Almacen\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAADMAAAAAAAAAAAAUwEcAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-21T21:13:28.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T21:13:28.667Z"
             },
             {
               "$type": "Document",
@@ -171,8 +165,7 @@
               "RelativeToolTip": "Almacen\\DAL\\ApplicationDbContext .cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T21:20:15.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T21:20:15.393Z"
             },
             {
               "$type": "Document",
@@ -184,8 +177,7 @@
               "RelativeToolTip": "Almacen\\Models\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T21:09:37.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T21:09:37.903Z"
             },
             {
               "$type": "Document",
@@ -197,8 +189,7 @@
               "RelativeToolTip": "Almacen\\Entidad\\Mov_Inventario.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAowDQAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T20:52:42.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T20:52:42.122Z"
             }
           ]
         }
