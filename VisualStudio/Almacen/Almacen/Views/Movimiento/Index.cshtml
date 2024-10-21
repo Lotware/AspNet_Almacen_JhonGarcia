@@ -1,0 +1,135 @@
+﻿@using System.Data
+@model DataTable
+
+<h1>Consultar Movimientos</h1>
+<form asp-action="Consultar" method="post">
+    <label>Fecha Inicio:</label>
+    <input type="date" name="fechaInicio" />
+
+    <label>Fecha Fin:</label>
+    <input type="date" name="fechaFin" />
+
+    <label>Tipo Movimiento:</label>
+    <input type="text" name="tipoMovimiento" />
+
+    <label>Nro Documento:</label>
+    <input type="text" name="nroDocumento" />
+
+    <button type="submit">Consultar</button>
+</form>
+
+<h1>Registrar Movimiento</h1>
+<form asp-action="Registrar" method="post">
+
+
+    <label>COD_CIA:</label>
+    <input type="text" name="COD_CIA" required />
+
+    <label>COMPANIA_VENTA_3:</label>
+    <input type="text" name="COMPANIA_VENTA_3" required />
+
+
+    <label>ALMACEN_VENTA:</label>
+    <input type="text" name="ALMACEN_VENTA" required />
+
+    <label>TIPO_MOVIMIENTO:</label>
+    <input type="text" name="TIPO_MOVIMIENTO" required />
+
+    <label>TIPO_DOCUMENTO:</label>
+    <input type="text" name="TIPO_DOCUMENTO" required />
+
+
+    <label>Nro Documento:</label>
+    <input type="text" name="NRO_DOCUMENTO" required />
+
+    <label>COD_ITEM_2:</label>
+    <input type="text" name="COD_ITEM_2" required />
+
+    <label>Fecha Transacion:</label>
+    <input type="date" name="FECHA_TRANSACCION" required />
+
+
+
+    <button type="submit">Registrar</button>
+</form>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-success">@ViewBag.Message</div>
+}
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+@if (Model != null && Model.Rows.Count > 0)
+{
+    <h2>Resultados de la Consulta</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Fecha</th>
+                <th>Tipo Movimiento</th>
+                <th>Nro Documento</th>
+                <th>Cantidad</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (DataRow row in Model.Rows)
+            {
+                <tr>
+                    <td>@row["COD_CIA"]</td>
+                    <td>@row["COMPANIA_VENTA_3"]</td>
+                    <td>@row["ALMACEN_VENTA"]</td>
+                    <td>@row["TIPO_MOVIMIENTO"]</td>
+                    <td>@row["TIPO_DOCUMENTO"]</td>
+                    <td>@row["NRO_DOCUMENTO"]</td>
+                    <td>@row["COD_ITEM_2"]</td>
+                    <td>@row["PROVEEDOR"]</td>
+                    <td>@row["ALMACEN_DESTINO"]</td>
+                    <td>@row["CANTIDAD"]</td>
+                    <td>@row["COMPANIA_DESTINO"]</td>
+                    <td>@row["COSTO_UNITARIO"]</td>
+                    <td>@row["DOC_REF_1"]</td>
+                    <td>@row["DOC_REF_2"]</td>
+                    <td>@row["FECHA_TRANSACCION"]</td>
+                    <td>@row["MOTIVO"]</td>
+                    <td>@row["PRECIO_UNITARIO"]</td>
+                    <td>@row["TIPO_DOC_REF"]</td>
+                    <td>@row["UM_ITEM_3"]</td>
+                    <td>@row["NRO_NOTA"]</td>
+                    <td>@row["ROWVERSION"]</td>
+                    <td>@row["USUARIO"]</td>
+                    <td>@row["MONEDA"]</td>
+                    <td>@row["COSTO_UNITARIO_ME"]</td>
+                    <td>@row["COS_UNIT_EST"]</td>
+                    <td>@row["COS_UNIT_ME_EST"]</td>
+                    <td>@row["HORA_TRANSACCION"]</td>
+                    <td>@row["F_ORDENCOMPRA"]</td>
+                    <td>@row["C_SEC_OC"]</td>
+                    <td>@row["C_SEC_DET_OC"]</td>
+                    <td>@row["TIPO_DOC_REF_2"]</td>
+                    <td>@row["OBSERVACION"]</td>
+                    <td>@row["FECHA_VALORIZACION"]</td>
+                    <td>@row["USUARIO_VALORIZA"]</td>
+                    <td>@row["FACTOR"]</td>
+                    <td>@row["COSTOS_ADICIONALES"]</td>
+                    <td>@row["T_CAMBIO_VALORIZA"]</td>
+                    <td>@row["PERIODO_CERRADO"]</td>
+                    <td>@row["PLANILLA_CONSIGNA"]</td>
+                    <td>@row["DOC_REF_3"]</td>
+                    <td>@row["INGRESO_SALIDA"]</td>
+                    <td>@row["SALDO_FINAL"]</td>
+                    <td>@row["FLAG_URGENTE"]</td>
+                    <td>@row["DOC_REF_4"]</td>
+                    <td>@row["DOC_REF_5"]</td>
+                    <td>@row["DOC_REF_6"]</td>
+                    <td>@row["DOC_REF_7"]</td>
+                    <td>@row["DOC_REF_8"]</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

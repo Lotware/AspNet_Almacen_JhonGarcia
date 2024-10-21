@@ -1,0 +1,208 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|d:\\jhon\\git\\almaceaspx\\visualstudio\\almacen\\almacen\\dal\\mov_inventariodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|solutionrelative:almacen\\dal\\mov_inventariodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|d:\\jhon\\git\\almaceaspx\\visualstudio\\almacen\\almacen\\controllers\\movimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|solutionrelative:almacen\\controllers\\movimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|d:\\jhon\\git\\almaceaspx\\visualstudio\\almacen\\almacen\\views\\movimiento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|solutionrelative:almacen\\views\\movimiento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|d:\\jhon\\git\\almaceaspx\\visualstudio\\almacen\\almacen\\services\\movimientoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|solutionrelative:almacen\\services\\movimientoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|d:\\jhon\\git\\almaceaspx\\visualstudio\\almacen\\almacen\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|solutionrelative:almacen\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|d:\\jhon\\git\\almaceaspx\\visualstudio\\almacen\\almacen\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|solutionrelative:almacen\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|d:\\jhon\\git\\almaceaspx\\visualstudio\\almacen\\almacen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|solutionrelative:almacen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|d:\\jhon\\git\\almaceaspx\\visualstudio\\almacen\\almacen\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|solutionrelative:almacen\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|d:\\jhon\\git\\almaceaspx\\visualstudio\\almacen\\almacen\\dal\\applicationdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|solutionrelative:almacen\\dal\\applicationdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|d:\\jhon\\git\\almaceaspx\\visualstudio\\almacen\\almacen\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|solutionrelative:almacen\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|d:\\jhon\\git\\almaceaspx\\visualstudio\\almacen\\almacen\\entidad\\mov_inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|solutionrelative:almacen\\entidad\\mov_inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\appsettings.json",
+              "RelativeDocumentMoniker": "Almacen\\appsettings.json",
+              "ToolTip": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\appsettings.json",
+              "RelativeToolTip": "Almacen\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-21T21:13:59.806Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Mov_InventarioDAL.cs",
+              "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\DAL\\Mov_InventarioDAL.cs",
+              "RelativeDocumentMoniker": "Almacen\\DAL\\Mov_InventarioDAL.cs",
+              "ToolTip": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\DAL\\Mov_InventarioDAL.cs",
+              "RelativeToolTip": "Almacen\\DAL\\Mov_InventarioDAL.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAjwDEAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T22:02:21.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MovimientoService.cs",
+              "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Services\\MovimientoService.cs",
+              "RelativeDocumentMoniker": "Almacen\\Services\\MovimientoService.cs",
+              "ToolTip": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Services\\MovimientoService.cs",
+              "RelativeToolTip": "Almacen\\Services\\MovimientoService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAIA6wBsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T22:01:51.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Views\\Movimiento\\Index.cshtml",
+              "RelativeDocumentMoniker": "Almacen\\Views\\Movimiento\\Index.cshtml",
+              "ToolTip": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Views\\Movimiento\\Index.cshtml",
+              "RelativeToolTip": "Almacen\\Views\\Movimiento\\Index.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAACoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T21:49:38.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovimientoController.cs",
+              "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Controllers\\MovimientoController.cs",
+              "RelativeDocumentMoniker": "Almacen\\Controllers\\MovimientoController.cs",
+              "ToolTip": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Controllers\\MovimientoController.cs",
+              "RelativeToolTip": "Almacen\\Controllers\\MovimientoController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAIA+wCIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T21:12:52.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Almacen\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Almacen\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T21:00:47.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Program.cs",
+              "RelativeDocumentMoniker": "Almacen\\Program.cs",
+              "ToolTip": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Program.cs",
+              "RelativeToolTip": "Almacen\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T21:15:37.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Almacen\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Almacen\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAUwEcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T21:13:28.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext .cs",
+              "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\DAL\\ApplicationDbContext .cs",
+              "RelativeDocumentMoniker": "Almacen\\DAL\\ApplicationDbContext .cs",
+              "ToolTip": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\DAL\\ApplicationDbContext .cs",
+              "RelativeToolTip": "Almacen\\DAL\\ApplicationDbContext .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T21:20:15.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Almacen\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Almacen\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T21:09:37.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Mov_Inventario.cs",
+              "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Entidad\\Mov_Inventario.cs",
+              "RelativeDocumentMoniker": "Almacen\\Entidad\\Mov_Inventario.cs",
+              "ToolTip": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Entidad\\Mov_Inventario.cs",
+              "RelativeToolTip": "Almacen\\Entidad\\Mov_Inventario.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowDQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T20:52:42.122Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

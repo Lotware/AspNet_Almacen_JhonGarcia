@@ -1,0 +1,77 @@
+﻿@using System.Data
+@model DataTable
+
+<h1>Consultar Movimientos</h1>
+<form asp-action="Consultar" method="post">
+    <label>Fecha Inicio:</label>
+    <input type="date" name="fechaInicio" />
+
+    <label>Fecha Fin:</label>
+    <input type="date" name="fechaFin" />
+
+    <label>Tipo Movimiento:</label>
+    <input type="text" name="tipoMovimiento" />
+
+    <label>Nro Documento:</label>
+    <input type="text" name="nroDocumento" />
+
+    <button type="submit">Consultar</button>
+</form>
+
+<h1>Registrar Movimiento</h1>
+<form asp-action="Registrar" method="post">
+    <label>Fecha Movimiento:</label>
+    <input type="date" name="fechaMovimiento" required />
+
+    <label>Tipo Movimiento:</label>
+    <input type="text" name="tipoMovimiento" required />
+
+    <label>Nro Documento:</label>
+    <input type="text" name="nroDocumento" required />
+
+    <label>Cantidad:</label>
+    <input type="number" name="cantidad" required />
+
+    <label>Descripción:</label>
+    <input type="text" name="descripcion" required />
+
+    <button type="submit">Registrar</button>
+</form>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-success">@ViewBag.Message</div>
+}
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+@if (Model != null && Model.Rows.Count > 0)
+{
+    <h2>Resultados de la Consulta</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Fecha</th>
+                <th>Tipo Movimiento</th>
+                <th>Nro Documento</th>
+                <th>Cantidad</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (DataRow row in Model.Rows)
+            {
+                <tr>
+                    <td>@row["FECHA_TRANSACCION"]</td>
+                    <td>@row["TIPO_MOVIMIENTO"]</td>
+                    <td>@row["NRO_DOCUMENTO"]</td>
+                    <td>@row["CANTIDAD"]</td>
+                    <td>@row["DESCRIPCION"]</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
