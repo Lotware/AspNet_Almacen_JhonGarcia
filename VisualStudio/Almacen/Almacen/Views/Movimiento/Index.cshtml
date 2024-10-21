@@ -1,99 +1,108 @@
 ﻿@using System.Data
 @model DataTable
 
-<h1>Consultar Movimientos</h1>
-<form asp-action="Consultar" method="post">
-    <label>Fecha Inicio:</label>
-    <input type="date" name="fechaInicio" />
-
-    <label>Fecha Fin:</label>
-    <input type="date" name="fechaFin" />
-
-    <label>Tipo Movimiento:</label>
-    <input type="text" name="tipoMovimiento" />
-
-    <label>Nro Documento:</label>
-    <input type="text" name="nroDocumento" />
-
-    <button type="submit">Consultar</button>
-</form>
-
-<h1>Registrar Movimiento</h1>
-<form asp-action="Registrar" method="post">
-
-
-    <label>COD_CIA:</label>
-    <input type="text" name="COD_CIA" required />
-
-    <label>COMPANIA_VENTA_3:</label>
-    <input type="text" name="COMPANIA_VENTA_3" required />
-
-
-    <label>ALMACEN_VENTA:</label>
-    <input type="text" name="ALMACEN_VENTA" required />
-
-    <label>TIPO_MOVIMIENTO:</label>
-    <input type="text" name="TIPO_MOVIMIENTO" required />
-
-    <label>TIPO_DOCUMENTO:</label>
-    <input type="text" name="TIPO_DOCUMENTO" required />
-
-
-    <label>Nro Documento:</label>
-    <input type="text" name="NRO_DOCUMENTO" required />
-
-    <label>COD_ITEM_2:</label>
-    <input type="text" name="COD_ITEM_2" required />
-
-    <label>Fecha Transacion:</label>
-    <input type="date" name="FECHA_TRANSACCION" required />
-
-
-
-    <button type="submit">Registrar</button>
-</form>
-
-@if (ViewBag.Message != null)
-{
-    <div class="alert alert-success">@ViewBag.Message</div>
+@{
+    ViewData["Title"] = "Consultar y Registrar Movimientos";
 }
 
-@if (ViewBag.Error != null)
-{
-    <div class="alert alert-danger">@ViewBag.Error</div>
-}
+<div class="container mt-5">
+    <h1 class="mb-4">Consultar Movimientos</h1>
+    <form asp-action="Consultar" method="post" class="mb-4">
+        <div class="form-group">
+            <label>Fecha Inicio:</label>
+            <input type="date" name="fechaInicio" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Fecha Fin:</label>
+            <input type="date" name="fechaFin" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Tipo Movimiento:</label>
+            <input type="text" name="tipoMovimiento" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Nro Documento:</label>
+            <input type="text" name="nroDocumento" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary">Consultar</button>
+    </form>
 
-@if (Model != null && Model.Rows.Count > 0)
-{
-    <h2>Resultados de la Consulta</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>COD_CIA</th>
-                <th>COMPANIA_VENTA_3</th>
-                <th>ALMACEN_VENTA</th>
-                <th>TIPO_MOVIMIENTO</th>
-                <th>TIPO_DOCUMENTO</th>
-                <th>NRO_DOCUMENTO</th>
-                <th>COD_ITEM_2</th>
+    <h1 class="mb-4">Registrar Movimiento</h1>
+    <form asp-action="Registrar" method="post">
+        <div class="form-group">
+            <label>COD_CIA:</label>
+            <input type="text" name="COD_CIA" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label>COMPANIA_VENTA_3:</label>
+            <input type="text" name="COMPANIA_VENTA_3" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label>ALMACEN_VENTA:</label>
+            <input type="text" name="ALMACEN_VENTA" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label>TIPO_MOVIMIENTO:</label>
+            <input type="text" name="TIPO_MOVIMIENTO" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label>TIPO_DOCUMENTO:</label>
+            <input type="text" name="TIPO_DOCUMENTO" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label>Nro Documento:</label>
+            <input type="text" name="NRO_DOCUMENTO" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label>COD_ITEM_2:</label>
+            <input type="text" name="COD_ITEM_2" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label>Fecha Transacción:</label>
+            <input type="date" name="FECHA_TRANSACCION" class="form-control" required />
+        </div>
+        <button type="submit" class="btn btn-success">Registrar</button>
+    </form>
 
+    @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-success">@ViewBag.Message</div>
+    }
 
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (DataRow row in Model.Rows)
-            {
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger">@ViewBag.Error</div>
+    }
+
+    @if (Model != null && Model.Rows.Count > 0)
+    {
+        <h2 class="mt-5">Resultados de la Consulta</h2>
+        <table class="table table-striped">
+            <thead>
                 <tr>
-                    <td>@row["COD_CIA"]</td>
-                    <td>@row["COMPANIA_VENTA_3"]</td>
-                    <td>@row["ALMACEN_VENTA"]</td>
-                    <td>@row["TIPO_MOVIMIENTO"]</td>
-                    <td>@row["TIPO_DOCUMENTO"]</td>
-                    <td>@row["NRO_DOCUMENTO"]</td>
-                    <td>@row["COD_ITEM_2"]</td>
-                   
+                    <th>COD_CIA</th>
+                    <th>COMPANIA_VENTA_3</th>
+                    <th>ALMACEN_VENTA</th>
+                    <th>TIPO_MOVIMIENTO</th>
+                    <th>TIPO_DOCUMENTO</th>
+                    <th>NRO_DOCUMENTO</th>
+                    <th>COD_ITEM_2</th>
                 </tr>
-            }
-        </tbody>
-    </table>
-}
+            </thead>
+            <tbody>
+                @foreach (DataRow row in Model.Rows)
+                {
+                    <tr>
+                        <td>@row["COD_CIA"]</td>
+                        <td>@row["COMPANIA_VENTA_3"]</td>
+                        <td>@row["ALMACEN_VENTA"]</td>
+                        <td>@row["TIPO_MOVIMIENTO"]</td>
+                        <td>@row["TIPO_DOCUMENTO"]</td>
+                        <td>@row["NRO_DOCUMENTO"]</td>
+                        <td>@row["COD_ITEM_2"]</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

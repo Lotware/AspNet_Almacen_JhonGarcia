@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|d:\\jhon\\git\\almaceaspx\\visualstudio\\almacen\\almacen\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|solutionrelative:almacen\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|d:\\jhon\\git\\almaceaspx\\visualstudio\\almacen\\almacen\\views\\movimiento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{748F3A9F-560A-477B-98FD-027490051D1D}|Almacen\\Almacen.csproj|solutionrelative:almacen\\views\\movimiento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -54,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\appsettings.json",
               "RelativeDocumentMoniker": "Almacen\\appsettings.json",
@@ -71,7 +75,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Almacen\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Almacen\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T22:22:30.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Mov_InventarioDAL.cs",
               "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\DAL\\Mov_InventarioDAL.cs",
               "RelativeDocumentMoniker": "Almacen\\DAL\\Mov_InventarioDAL.cs",
@@ -79,12 +96,11 @@
               "RelativeToolTip": "Almacen\\DAL\\Mov_InventarioDAL.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T22:02:21.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T22:02:21.553Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MovimientoService.cs",
               "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Services\\MovimientoService.cs",
               "RelativeDocumentMoniker": "Almacen\\Services\\MovimientoService.cs",
@@ -96,20 +112,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Views\\Movimiento\\Index.cshtml",
               "RelativeDocumentMoniker": "Almacen\\Views\\Movimiento\\Index.cshtml",
               "ToolTip": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Views\\Movimiento\\Index.cshtml",
               "RelativeToolTip": "Almacen\\Views\\Movimiento\\Index.cshtml",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAAAE8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-21T21:49:38.088Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MovimientoController.cs",
               "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Controllers\\MovimientoController.cs",
               "RelativeDocumentMoniker": "Almacen\\Controllers\\MovimientoController.cs",
@@ -121,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Almacen\\Controllers\\HomeController.cs",
@@ -133,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Program.cs",
               "RelativeDocumentMoniker": "Almacen\\Program.cs",
@@ -145,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Almacen\\Views\\Home\\Index.cshtml",
@@ -157,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ApplicationDbContext .cs",
               "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\DAL\\ApplicationDbContext .cs",
               "RelativeDocumentMoniker": "Almacen\\DAL\\ApplicationDbContext .cs",
@@ -169,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Almacen\\Models\\ErrorViewModel.cs",
@@ -181,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Mov_Inventario.cs",
               "DocumentMoniker": "D:\\Jhon\\Git\\AlmaceASPX\\VisualStudio\\Almacen\\Almacen\\Entidad\\Mov_Inventario.cs",
               "RelativeDocumentMoniker": "Almacen\\Entidad\\Mov_Inventario.cs",
